@@ -25,6 +25,3 @@ Dinamik programlama tablosu (`dp[i][j]`), `i`. işin `j`. makinede tamamlanması
 1. İlk iş için her makinedeki süre doğrudan yazılır.
 2. Sonraki işler için, önceki işin tüm makinelerinden geçiş maliyeti + şu anki makinedeki süre hesaplanır.
 3. En düşük olan seçilir ve tablo güncellenir.
-
-### ⏱ Zaman Karmaşıklığı
-
