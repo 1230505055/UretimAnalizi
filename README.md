@@ -1,22 +1,22 @@
-# 🏭 Üretim Planlama Algoritması
+#  Üretim Planlama Algoritması
 
 Bu proje, **dinamik programlama (DP)** yöntemini kullanarak bir üretim hattındaki işlerin minimum toplam sürede tamamlanmasını amaçlar. Her iş, farklı makinelerde farklı sürelerde tamamlanabilir ve makineler arası geçişlerin maliyeti de hesaba katılır.
 
-## 🎯 Amaç
+##  Amaç
 
 - `n` adet işi
 - `m` adet makine kullanarak
 - Geçiş maliyetlerini de dikkate alarak
 - **Toplam süreyi minimize etmektir.**
 
-## 📌 Özellikler
+## Özellikler
 
 - **İş Sayısı (n):** 4 (örnek sabit değer)
 - **Makine Sayısı (m):** 3 (örnek sabit değer)
 - **İş Süreleri:** `Zaman[i][j]` → `i`. işin `j`. makinede tamamlanma süresi
 - **Geçiş Maliyetleri:** `Maliyeti[k][j]` → önceki işin `k`. makinesinden şu anki işin `j`. makinesine geçişin maliyeti
 
-## 🧠 Kullanılan Yöntem: Dinamik Programlama
+## Kullanılan Yöntem: Dinamik Programlama
 
 Dinamik programlama tablosu (`dp[i][j]`), `i`. işin `j`. makinede tamamlanmasının ardından elde edilecek **minimum toplam süreyi** tutar.
 
